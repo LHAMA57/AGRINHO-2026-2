@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+
+    min-height:100vh;
+    background:
+    linear-gradient(135deg,#0f172a,#2563eb);
+
+    color:white;
+
+}
+
+
+header{
+
+    text-align:center;
+    padding:40px 20px;
+
+}
+
+
+header h1{
+
+    font-size:42px;
+    margin-bottom:10px;
+
+}
+
+
+header p{
+
+    font-size:18px;
+    opacity:0.8;
+
+}
+
+
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(260px,1fr));
+
+    gap:30px;
+
+    padding:40px;
+
+    max-width:1100px;
+
+    margin:auto;
+
+}
+
+
+
+
+.card{
+
+    height:260px;
+
+    perspective:1000px;
+
+}
+
+
+
+.card-inner{
+
+    position:relative;
+
+    width:100%;
+    height:100%;
+
+    transition:0.7s;
+
+    transform-style:preserve-3d;
+
+}
+
+
+
+.card:hover .card-inner{
+
+    transform:rotateY(180deg);
+
+}
+
+
+
+
+.card-front,
+.card-back{
+
+    position:absolute;
+
+    width:100%;
+    height:100%;
+
+    border-radius:20px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:25px;
+
+    backface-visibility:hidden;
+
+}
+
+
+
+
+.card-front{
+
+    background:#ffffff;
+
+    color:#0f172a;
+
+    box-shadow:0 10px 25px #0005;
+
+}
+
+
+
+
+.card-front h2{
+
+    font-size:35px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+
+.card-back{
+
+    background:#22c55e;
+
+    transform:rotateY(180deg);
+
+    text-align:center;
+
+    font-size:18px;
+
+}
+
+
+
+footer{
+
+    text-align:center;
+
+    padding:30px;
+
+    font-size:18px;
+
+}

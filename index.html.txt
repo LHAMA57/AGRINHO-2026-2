@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards de Estudo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>📚 Flashcards de Estudo</h1>
+    <p>Aprenda de forma rápida e organizada</p>
+</header>
+
+
+<main>
+
+    <section class="cards">
+
+        <div class="card">
+            <div class="card-inner">
+
+                <div class="card-front">
+                    <h2>HTML</h2>
+                    <p>O que é HTML?</p>
+                </div>
+
+                <div class="card-back">
+                    <p>
+                        HTML é uma linguagem usada
+                        para criar a estrutura das páginas web.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="card">
+            <div class="card-inner">
+
+                <div class="card-front">
+                    <h2>CSS</h2>
+                    <p>Para que serve?</p>
+                </div>
+
+                <div class="card-back">
+                    <p>
+                        CSS estiliza páginas,
+                        criando cores, layouts e animações.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <div class="card">
+            <div class="card-inner">
+
+                <div class="card-front">
+                    <h2>JavaScript</h2>
+                    <p>Qual sua função?</p>
+                </div>
+
+                <div da class="card-back">
+                    <p>
+                        Adiciona interatividade
+                        e comportamentos ao site.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <div class="card">
+            <div class="card-inner">
+
+                <div class="card-front">
+                    <h2>GitHub</h2>
+                    <p>O que é?</p>
+                </div>
+
+                <div class="card-back">
+                    <p>
+                        Plataforma para guardar,
+                        compartilhar e controlar códigos.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+</main>
+
+
+<footer>
+    <p>✨ Bons estudos! ✨</p>
+</footer>
+
+
+</body>
+</html>
